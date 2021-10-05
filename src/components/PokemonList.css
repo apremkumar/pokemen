@@ -1,0 +1,33 @@
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.top-container .limit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1em 1em 1em 2em;
+}
+.top-container .paging-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1em 2em 1em 1em;
+}
+
+.top-container .limit .limit-control {
+    margin-left: 1em;
+}
+
+.card-container {
+    padding: 0 2em 2em 2em;
+}
+
+.sort-control {
+    margin-left: 1em;
+}
+
+.sort-menu-item {
+    display: flex;
+}
